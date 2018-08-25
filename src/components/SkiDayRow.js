@@ -26,7 +26,7 @@ export const SkiDayRow = ({
 );
 
 
-SkiDayRow.propTypes = {
+SkiDayRow.PropTypes = {
     resort: PropTypes.string.isRequired,
     date: PropTypes.instanceOf(Date).isRequired,
     powder: PropTypes.bool,

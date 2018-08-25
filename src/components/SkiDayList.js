@@ -1,5 +1,7 @@
 import {SkiDayRow} from './SkiDayRow'
-import { PropsTypes } from 'react'
+import React from 'react'
+import { PropTypes } from 'react'
+
 export const SkiDayList = ({days}) => (
     <table>
         <thead>
@@ -21,7 +23,7 @@ export const SkiDayList = ({days}) => (
 );
 
 
-SkiDayList.propTypes = {
+SkiDayList.PropTypes = {
     days: function (props) {
         if (!Array.isArray(props.days)) {
             return new Error(
