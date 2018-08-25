@@ -2,6 +2,7 @@ import '../stylesheets/ui.scss'
 import {MdTerrain} from 'react-icons/md'
 import {TiWeatherSnow} from 'react-icons/ti'
 import {FaCalendar} from 'react-icons/fa'
+import { PropTypes } from 'react'
 
 const percentToDecimal = (decimal) => {
     return ((decimal * 100) + '%')
@@ -38,3 +39,11 @@ export const SkiDayCount = ({total, powder, backcountry, goal}) => (
         </div>
     </div>
 );
+
+
+SkiDayCount.propTypes = {
+    total: PropTypes.number,
+    powder: PropTypes.number,
+    backcountry: PropTypes.number,
+    goal: PropTypes.number
+};

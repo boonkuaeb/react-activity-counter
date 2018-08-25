@@ -1,5 +1,7 @@
 import {MdTerrain} from 'react-icons/md'
 import {TiWeatherSnow} from 'react-icons/ti'
+import { PropTypes } from 'react'
+
 
 export const SkiDayRow = ({
                               resort, date,
@@ -22,3 +24,11 @@ export const SkiDayRow = ({
     </tr>
 
 );
+
+
+SkiDayRow.propTypes = {
+    resort: PropTypes.string.isRequired,
+    date: PropTypes.instanceOf(Date).isRequired,
+    powder: PropTypes.bool,
+    backcountry: PropTypes.bool
+};
