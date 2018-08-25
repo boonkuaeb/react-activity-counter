@@ -1,6 +1,5 @@
 import {SkiDayRow} from './SkiDayRow'
 import React from 'react'
-import { PropTypes } from 'react'
 
 export const SkiDayList = ({days}) => (
     <table>
