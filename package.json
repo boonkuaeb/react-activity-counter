@@ -1,0 +1,22 @@
+{
+  "name": "reactjs-essentail",
+  "version": "1.0.0",
+  "description": "ReactJS and relate tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpster -d ./dist -p 3000"
+  },
+  "keywords": [
+    "ReactJs",
+    "Babel",
+    "Webpack"
+  ],
+  "author": "boonkuae.b",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0"
+  }
+}
