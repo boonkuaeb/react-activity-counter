@@ -1,6 +1,6 @@
 {
   "name": "reactjs-essentail",
-  "git":"https://github.com/boonkuaeb/reactjs-essentail",
+  "git": "https://github.com/boonkuaeb/reactjs-essentail",
   "version": "1.0.0",
   "description": "ReactJS and relate tools",
   "main": "index.js",
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-icons": "^3.0.5"
   }
 }
